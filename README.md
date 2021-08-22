@@ -1,4 +1,6 @@
-# Arduino: GFadeLED
+# Arduino: GFadeLED (General fade LED)
+
+Example: https://youtu.be/tLgJLZ2Suhc
 
 A small utility to fade LED's in and out using the FastLED library.
 
