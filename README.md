@@ -2,6 +2,8 @@
 
 Example: https://youtu.be/tLgJLZ2Suhc
 
+![image](https://user-images.githubusercontent.com/1586332/130353394-92d04cc5-3ed3-43e0-ba11-f519120c750f.png)
+
 A small utility to fade LED's in and out using the FastLED library.
 
 Similar to https://github.com/Sarah-C/M5Stack_Core2_FadeLED , but exposes the FastLED objects so it can be used on a plain Arduino.
