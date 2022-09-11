@@ -18,6 +18,8 @@ CRGB leds[NUM_LEDS];
 uint8_t stage = 0;
 uint8_t oldStage = 1; // For knowing when to draw the flash description on the screen.
 
+void maybeAddNewFadyStage();
+
 void setup() {
   randomSeed(analogRead(0));
   FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);  // GRB ordering is assumed
